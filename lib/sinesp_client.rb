@@ -56,7 +56,7 @@ module SinespClient
 
     #begin
 
-    response = post("https://189.9.194.154/sinesp-cidadao/mobile/consultar-placa/v4", body: body, headers: headers, timeout: 20)
+    response = post("https://189.9.194.154/sinesp-cidadao/mobile/consultar-placa/v4", body: body, headers: headers, timeout: 60)
 
     #rescue
     #  return nil
